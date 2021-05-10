@@ -60,7 +60,7 @@ function gameOver() {
   grid.forEach((col) => {
     col.forEach((row) => {
       row.reveal();
-      alert("You Lost");
+      // alert("You Lost");
     });
   });
 }
